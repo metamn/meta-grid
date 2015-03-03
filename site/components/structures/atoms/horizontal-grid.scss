@@ -1,0 +1,13 @@
+@mixin horizontal-grid {
+  aside {
+    flex: 1 0 0px;
+  }
+
+  article {
+    flex: 4 0 0px;
+
+    // center
+    display: flex;
+    justify-content: center;
+  }
+}

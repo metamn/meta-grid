@@ -5,10 +5,10 @@ html {
     @include full-page;
     @include vertical-grid;
 
-    section {      
+    section {
       &#content {
-        border-top: 1px solid;
-        border-bottom: 1px solid;
+        @include horizontal-grid;
+        @include borders;
       }
     }
   }
