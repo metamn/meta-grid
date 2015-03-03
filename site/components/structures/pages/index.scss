@@ -1,0 +1,15 @@
+html {
+  @include full-page;
+
+  body {
+    @include full-page;
+    @include vertical-grid;
+
+    section {      
+      &#content {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+      }
+    }
+  }
+}
