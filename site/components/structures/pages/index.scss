@@ -1,4 +1,5 @@
 html {
+  @include fonts;
   @include full-page;
 
   body {
