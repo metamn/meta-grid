@@ -13,9 +13,10 @@ With flexbox we can forget <code>position: relative</code> and <code>float:left<
 
 #### Bugs
 
-##### Firefox
+##### Firefox, big child element breaks layout (FIXED)
 
-- the grid set up with flexbox is not fixed: if we have a 300x300px grid cell with an 500x500px image inside the grid cell will be grown to 500x500px shifting the whole layout. 
+- if we have a 300x300px grid cell with an 500x500px image inside the grid cell will be grown to 500x500px shifting the whole layout.
+- http://stackoverflow.com/questions/26895349/how-can-i-get-ff-33-x-flexbox-behavior-in-ff-34-x
 
 
 #### Resources

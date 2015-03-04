@@ -6,8 +6,8 @@
   article {
     flex: 4 0 0px;
 
-    @include mobile {
-      flex: 1 0 0px;
+    @include tablet-and-below {
+      flex: 2 0 0px;
     }
 
     // center
