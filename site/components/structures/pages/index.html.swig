@@ -14,7 +14,7 @@
       <h3>Article</h3>
 
       {% set image = index.images | first %}
-      {% include '../../images/atoms/figure.html.swig ' %}
+      {% include '../../images/atoms/figure.html.swig' %}
 
     </article>
   </section>
