@@ -10,6 +10,13 @@ html {
       &#content {
         @include horizontal-grid;
         @include borders;
+
+        article {
+          figure {
+            @include figure;
+            @include placeholder;
+          }
+        }
       }
     }
   }
