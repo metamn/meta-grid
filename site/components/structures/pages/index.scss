@@ -12,9 +12,28 @@ html {
         @include borders;
 
         article {
+          h3 {
+            display: none;
+          }
+
           figure {
             @include figure;
             @include placeholder;
+
+            picture {
+              // center
+              display: flex;
+              justify-content: center;
+
+              // do not let overflow the grid
+              img {
+                width: 70%;
+
+                @include mobile {
+                  width: 100%;
+                }
+              }
+            }
           }
         }
       }
